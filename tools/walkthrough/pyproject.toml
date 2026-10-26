@@ -1,0 +1,9 @@
+[project]
+name = "alphalab-walkthrough"
+version = "0.1.0"
+description = "Read-only accepted-results notebook execution"
+requires-python = ">=3.12,<3.13"
+dependencies = ["nbclient", "nbformat", "ipykernel"]
+
+[tool.uv]
+package = false

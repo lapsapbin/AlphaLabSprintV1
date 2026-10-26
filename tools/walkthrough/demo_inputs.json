@@ -1,0 +1,18 @@
+{
+  "scope": "display + synthetic only",
+  "financial_read_count": 9,
+  "files": {
+    "PROJECT_SPEC.md": "df445042c475edc73238ce6db9d9f421c1113f20a704f44f8e5d4a33bf0c7900",
+    "notebooks/01_research_walkthrough.ipynb": "1b33b5086a0d7db43d1027f4e3906fc5aa1019d9cf9f2b2664c6ce7b0762f6f3",
+    "outputs/day4/run_manifest.json": "8e3f587d0aa1f575fd18f920264aaeea38a0064257cabd9ee047a223665da461",
+    "outputs/day5/run_manifest.json": "2fef4ac6f524291898dafa4e7febe405eaa5369bb3a7a6ac741f0a71f87b6998",
+    "reports/figures/day6_release/presentation_manifest.json": "af87d049d9046aa9a14838bd0f31f9b1de78bbd1c33e3ead782d5e5f0105a5b4",
+    "outputs/day4/performance_summary.csv": "36c7d07262a182cf38bf07b4ee185dd4c1e6115c14af615c7258d0f8e371ad43",
+    "outputs/day4/ic_hac.csv": "bedfb07d6419d6a67c040e1630fa8b1ca77c46462450e924a525cce99a991e8b",
+    "outputs/day5/performance_summary.csv": "e019bdb0d3875349d3e3c53651b262a065b9ec191c085396f67f817b4a4f0502",
+    "outputs/day5/ic_hac.csv": "8f3300a213bba35121b6a6fe462f9917006335dc23905d378682384a946d250b",
+    "outputs/day5/factor_regressions.csv": "7484a1159bc787a531414612ab1eb85a103bcea6cfe5b2a0e82779719a7bf8a2",
+    "reports/figures/day6_release/01_wealth_drawdown.png": "5b964f6f39a9aff88b31c31d91ce4a79cb1de3342fc8e469461f72bfdc58cbd8"
+  },
+  "note": "One source/marker, five unchanged summaries, three PUBLIC_DISPLAY derivatives and unchanged PNG. No private freeze bypass."
+}

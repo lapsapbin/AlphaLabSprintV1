@@ -1,0 +1,84 @@
+{
+  "kind": "PUBLIC_DISPLAY_DERIVATIVE_NOT_FROZEN_MANIFEST",
+  "original_manifest_sha256": "1d33527831cbc075a15d00bc43d93686f31f1d122ba252d2fba68c965c850585",
+  "accepted_delivery_commit": "06d3349084d94fc237f001c62c51f20cc7d44a4e",
+  "scope": "Selected existing aggregates and figures; no environment, input observations or authorization",
+  "outputs": {
+    "01_wealth_drawdown.png": {
+      "bytes": 343533,
+      "sha256": "5b964f6f39a9aff88b31c31d91ce4a79cb1de3342fc8e469461f72bfdc58cbd8"
+    },
+    "02_cost_trading.png": {
+      "bytes": 176766,
+      "sha256": "efeb3ba66daff4552595baee3e8c5996f819f2689d9a821525d63df02667e82a"
+    },
+    "03_diagnostics.png": {
+      "bytes": 241182,
+      "sha256": "910f2b6a58321f24d1f5c73554699a16e3bab01b81a7556fb4a9f31569a60673"
+    },
+    "04_exposure.png": {
+      "bytes": 182804,
+      "sha256": "d0dc8f86c04dcde93732105b316074f108edf8e390865ab39a82e481315bac68"
+    },
+    "05_factor_intercepts.png": {
+      "bytes": 84994,
+      "sha256": "64c3e47bf407685f7a9cbdae95e0a19018d68b5b7a6a7abcdad6410cb281f8df"
+    },
+    "active_all_fixed.csv": {
+      "bytes": 5737,
+      "sha256": "de23ee9d4dcacc11f38f93dd8ea4de4e08383e8051c4f160b7403583af26eb3e"
+    },
+    "diagnostics_all_segments.csv": {
+      "bytes": 1147,
+      "sha256": "627ff121c6f01078d0173559b000bdbb833221cd0d55326e6102a987c730f5bd"
+    },
+    "factor_coefficients_all_fixed.csv": {
+      "bytes": 30238,
+      "sha256": "82be63a943724bbefe7bfcba0de9da7cb307731f9efa567cf0831c16741bf8b0"
+    },
+    "figure_continuous_nav_drawdown.csv": {
+      "bytes": 63457,
+      "sha256": "5a6a869d9d08e440e2affa979b976e01d0ef92dddb50a00cc2b61bebb072b65a"
+    },
+    "ic_hac_all.csv": {
+      "bytes": 463,
+      "sha256": "366514000e7f425bc1a3f03aa9bb38799557f051e82c7b94143c57f628338306"
+    },
+    "market_reference_segmented.csv": {
+      "bytes": 869,
+      "sha256": "2a2a286c340af5a97c73317eb2db37f7ac86950b91ef06033497cdaee0909e17"
+    },
+    "performance_all_fixed.csv": {
+      "bytes": 12143,
+      "sha256": "0121fc86bfbfa75af18972dc79ddf6ecb86b8ead8eddb8cbc9d809d02b517c7a"
+    },
+    "report_tables.json": {
+      "bytes": 5246,
+      "sha256": "5016e7b50c9dc7d9839110a5c42cfcf4c53ddc9f453c2136fca4f4bd7741bfdf"
+    },
+    "retrospective_2000_2025.csv": {
+      "bytes": 3098,
+      "sha256": "74d316c68c96287e140c8055dc414b1fdf4ea62342e708fb04f60031a9012811"
+    },
+    "retrospective_active_2000_2025.csv": {
+      "bytes": 965,
+      "sha256": "be288abd128e7b570f52360d084df30ceced45572a9064aa45d9a49965e4cc24"
+    },
+    "retrospective_market_2000_2025.csv": {
+      "bytes": 250,
+      "sha256": "8192df9264180598371f13069a194727bd42869f695e7a929a18bc0c85dca513"
+    },
+    "sensitivities_research_validation_only.csv": {
+      "bytes": 1607,
+      "sha256": "22cfb8f22337286ec2a94f84a0d2f91217027252cba4f4e73235467a0591dbd9"
+    },
+    "sensitivity_active_research_validation_only.csv": {
+      "bytes": 1320,
+      "sha256": "60986a80db48fe648f4724f79efb3d4623e9d25b7dabca1fd9c3690ae2f228c2"
+    },
+    "tables.md": {
+      "bytes": 5165,
+      "sha256": "54fdb632708bd4f58d2165c2c8019002a27a532638db87d1b3a02a733abd5095"
+    }
+  }
+}

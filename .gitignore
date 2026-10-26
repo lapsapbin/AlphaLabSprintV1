@@ -1,0 +1,23 @@
+# Local environments, caches and private runtime artifacts
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.p12
+/data/raw/
+/data/processed/
+/data/cache/
+/demo-work/
+/runtime/
+executed_walkthrough.ipynb
+execution.json
+# Approved outputs, reports, figures, fixtures and tests remain tracked.

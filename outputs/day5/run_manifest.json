@@ -1,0 +1,23 @@
+{
+  "kind": "PUBLIC_DISPLAY_DERIVATIVE_NOT_FROZEN_MANIFEST",
+  "original_manifest_sha256": "96ec7833bb50614235ff388a44ad537ce5a12aa1c7d08419d1876628c4aec3e7",
+  "accepted_delivery_commit": "06d3349084d94fc237f001c62c51f20cc7d44a4e",
+  "scope": "Selected existing aggregates and figures; no environment, input observations or authorization",
+  "outputs": {
+    "factor_regressions.csv": {
+      "bytes": 9837,
+      "rows": 60,
+      "sha256": "7484a1159bc787a531414612ab1eb85a103bcea6cfe5b2a0e82779719a7bf8a2"
+    },
+    "ic_hac.csv": {
+      "bytes": 208,
+      "rows": 1,
+      "sha256": "8f3300a213bba35121b6a6fe462f9917006335dc23905d378682384a946d250b"
+    },
+    "performance_summary.csv": {
+      "bytes": 2477,
+      "rows": 12,
+      "sha256": "e019bdb0d3875349d3e3c53651b262a065b9ec191c085396f67f817b4a4f0502"
+    }
+  }
+}

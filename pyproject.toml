@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "alphalab-sprint-v1"
+version = "0.1.0"
+description = "Day 1: reproducible French industry data and locked holdout"
+requires-python = ">=3.12,<3.13"
+dependencies = ["numpy>=2.1,<3", "pandas>=2.2,<4", "PyYAML>=6,<7", "statsmodels>=0.14,<0.16", "scipy>=1.14,<2"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/alphalab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra --strict-markers"
+markers = ["real: official local snapshot integration, never synthetic evidence"]

@@ -1,0 +1,350 @@
+{
+  "files": {
+    "ff3": {
+      "bytes": 13065,
+      "content_type": "application/x-zip-compressed",
+      "description": [
+        "This file was created using the 202608 CRSP database.",
+        "The 1-month TBill rate data until 202405 are from Ibbotson Associates. Starting from 202406, the 1-month TBill rate is from ICE BofA US 1-Month Treasury Bill Index. ",
+        "The annual TBill return is compounded from the monthly T-bill rates from January to December. ",
+        ""
+      ],
+      "downloaded_at_utc": "2026-10-14T06:14:33.659271+00:00",
+      "filename": "F-F_Research_Data_Factors_CSV.zip",
+      "final_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_CSV.zip",
+      "http_status": 200,
+      "method": "direct official HTTPS; verified link from saved official index; no third-party data",
+      "parser_version": "1.0.0",
+      "sha256": "593f4fbef03181bc0b22ff6292f217689dd1fb79355049ca905d95b262040a66",
+      "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_CSV.zip",
+      "zip_member": "F-F_Research_Data_Factors.csv"
+    },
+    "industries": {
+      "bytes": 489433,
+      "content_type": "application/x-zip-compressed",
+      "description": [
+        "This file was created using the 202608 CRSP database.",
+        "It contains value- and equal-weighted returns for 49 industry portfolios.",
+        "",
+        "The portfolios are constructed at the end of June.",
+        "",
+        "The annual returns are from January to December.",
+        "",
+        "Missing data are indicated by -99.99 or -999.",
+        "",
+        "",
+        "  Average Value Weighted Returns -- Monthly"
+      ],
+      "downloaded_at_utc": "2026-10-14T06:14:32.674639+00:00",
+      "filename": "49_Industry_Portfolios_CSV.zip",
+      "final_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/49_Industry_Portfolios_CSV.zip",
+      "http_status": 200,
+      "method": "direct official HTTPS; verified link from saved official index; no third-party data",
+      "parser_version": "1.0.0",
+      "sha256": "16b3f20bf5bd1db8f5cd7a1b29f5cab1350eb0d5106c5309f77a6629590b1c0e",
+      "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/49_Industry_Portfolios_CSV.zip",
+      "zip_member": "49_Industry_Portfolios.csv"
+    },
+    "mom": {
+      "bytes": 5600,
+      "content_type": "application/x-zip-compressed",
+      "description": [
+        "This file was created using the 202608 CRSP database.  It",
+        "contains a momentum factor, constructed from six value-weight portfolios formed",
+        "using independent sorts on size and prior return of NYSE, AMEX, and NASDAQ stocks",
+        "Mom    is the average of the returns on two (big and small) high prior return portfolios",
+        "minus the average of the returns on two low prior return portfolios.  The portfolios",
+        "are constructed monthly.  Big means a firm is above the median market cap on the NYSE",
+        "at the end of the previous month; small firms are below the median NYSE market cap.",
+        "Prior return is measured from month -12 to - 2.  Firms in the low prior return",
+        "portfolio are below the 30th NYSE percentile.  Those in the high portfolio are above",
+        "the 70th NYSE percentile.",
+        "",
+        "Missing data are indicated by -99.99 or -999.",
+        ""
+      ],
+      "downloaded_at_utc": "2026-10-14T06:14:34.686051+00:00",
+      "filename": "F-F_Momentum_Factor_CSV.zip",
+      "final_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip",
+      "http_status": 200,
+      "method": "direct official HTTPS; verified link from saved official index; no third-party data",
+      "parser_version": "1.0.0",
+      "sha256": "c06d1c2e9a5e4f6985879722f23c6bb585f46b34eaf3fcb681d4de887e353f3e",
+      "source_url": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Momentum_Factor_CSV.zip",
+      "zip_member": "F-F_Momentum_Factor.csv"
+    }
+  },
+  "official_index": "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html",
+  "official_index_sha256": "9af7df28fb25d32d7ab81e1b6eaddebb167f57cc013cb437c85c154727ce9065",
+  "parser_version": "1.0.0",
+  "parsing": {
+    "ff3": {
+      "block": "Monthly Mkt-RF/SMB/HML/RF",
+      "columns": [
+        "Mkt-RF",
+        "SMB",
+        "HML",
+        "RF"
+      ],
+      "description": [
+        "This file was created using the 202608 CRSP database.",
+        "The 1-month TBill rate data until 202405 are from Ibbotson Associates. Starting from 202406, the 1-month TBill rate is from ICE BofA US 1-Month Treasury Bill Index. ",
+        "The annual TBill return is compounded from the monthly T-bill rates from January to December. ",
+        ""
+      ],
+      "header_line_1_based": 5,
+      "input_unit": "percent",
+      "monthly_range": [
+        "1926-07",
+        "2026-08"
+      ],
+      "monthly_rows": 1202,
+      "output_unit": "decimal_return",
+      "parser_version": "1.0.0",
+      "scale_divisions": 1
+    },
+    "industries": {
+      "block": "Average Value Weighted Returns -- Monthly",
+      "columns": [
+        "Agric",
+        "Food",
+        "Soda",
+        "Beer",
+        "Smoke",
+        "Toys",
+        "Fun",
+        "Books",
+        "Hshld",
+        "Clths",
+        "Hlth",
+        "MedEq",
+        "Drugs",
+        "Chems",
+        "Rubbr",
+        "Txtls",
+        "BldMt",
+        "Cnstr",
+        "Steel",
+        "FabPr",
+        "Mach",
+        "ElcEq",
+        "Autos",
+        "Aero",
+        "Ships",
+        "Guns",
+        "Gold",
+        "Mines",
+        "Coal",
+        "Oil",
+        "Util",
+        "Telcm",
+        "PerSv",
+        "BusSv",
+        "Hardw",
+        "Softw",
+        "Chips",
+        "LabEq",
+        "Paper",
+        "Boxes",
+        "Trans",
+        "Whlsl",
+        "Rtail",
+        "Meals",
+        "Banks",
+        "Insur",
+        "RlEst",
+        "Fin",
+        "Other"
+      ],
+      "description": [
+        "This file was created using the 202608 CRSP database.",
+        "It contains value- and equal-weighted returns for 49 industry portfolios.",
+        "",
+        "The portfolios are constructed at the end of June.",
+        "",
+        "The annual returns are from January to December.",
+        "",
+        "Missing data are indicated by -99.99 or -999.",
+        "",
+        "",
+        "  Average Value Weighted Returns -- Monthly"
+      ],
+      "header_line_1_based": 12,
+      "input_unit": "percent",
+      "monthly_range": [
+        "1926-07",
+        "2026-08"
+      ],
+      "monthly_rows": 1202,
+      "output_unit": "decimal_return",
+      "parser_version": "1.0.0",
+      "scale_divisions": 1
+    },
+    "mom": {
+      "block": "Monthly Mom",
+      "columns": [
+        "Mom"
+      ],
+      "description": [
+        "This file was created using the 202608 CRSP database.  It",
+        "contains a momentum factor, constructed from six value-weight portfolios formed",
+        "using independent sorts on size and prior return of NYSE, AMEX, and NASDAQ stocks",
+        "Mom    is the average of the returns on two (big and small) high prior return portfolios",
+        "minus the average of the returns on two low prior return portfolios.  The portfolios",
+        "are constructed monthly.  Big means a firm is above the median market cap on the NYSE",
+        "at the end of the previous month; small firms are below the median NYSE market cap.",
+        "Prior return is measured from month -12 to - 2.  Firms in the low prior return",
+        "portfolio are below the 30th NYSE percentile.  Those in the high portfolio are above",
+        "the 70th NYSE percentile.",
+        "",
+        "Missing data are indicated by -99.99 or -999.",
+        ""
+      ],
+      "header_line_1_based": 14,
+      "input_unit": "percent",
+      "monthly_range": [
+        "1927-01",
+        "2026-08"
+      ],
+      "monthly_rows": 1196,
+      "output_unit": "decimal_return",
+      "parser_version": "1.0.0",
+      "scale_divisions": 1
+    }
+  },
+  "products": {
+    "data/processed/holdout/factors.csv": {
+      "bytes": 1089,
+      "columns": [
+        "month",
+        "Mkt-RF",
+        "SMB",
+        "HML",
+        "RF",
+        "Mom"
+      ],
+      "range": [
+        "2024-01",
+        "2025-12"
+      ],
+      "rows": 24,
+      "sha256": "9917652a2115f6a7f23ec1cf9912de56d0b2b1f372cc692ccd28aaa68840dc6d",
+      "unit": "decimal_return"
+    },
+    "data/processed/holdout/industry_returns.csv": {
+      "bytes": 24644,
+      "columns": [
+        "month",
+        "industry",
+        "return"
+      ],
+      "range": [
+        "2024-01",
+        "2025-12"
+      ],
+      "rows": 1176,
+      "sha256": "3ae67e196fa6b35fb291fe795203d173cacacb4615af6c740d3049def33d95b0",
+      "unit": "decimal_return"
+    },
+    "data/processed/research/factors.csv": {
+      "bytes": 9321,
+      "columns": [
+        "month",
+        "Mkt-RF",
+        "SMB",
+        "HML",
+        "RF",
+        "Mom"
+      ],
+      "range": [
+        "2000-01",
+        "2017-12"
+      ],
+      "rows": 216,
+      "sha256": "6ce636d220fc220eaa20460a3e5d5ec04a11b81f392943267511635358faed73",
+      "unit": "decimal_return"
+    },
+    "data/processed/research/industry_returns.csv": {
+      "bytes": 221778,
+      "columns": [
+        "month",
+        "industry",
+        "return"
+      ],
+      "range": [
+        "2000-01",
+        "2017-12"
+      ],
+      "rows": 10584,
+      "sha256": "1730a39bb548fb6f075b81715e96ed13a329b46c4e64ebea967a4ca605311c6e",
+      "unit": "decimal_return"
+    },
+    "data/processed/validation/factors.csv": {
+      "bytes": 3138,
+      "columns": [
+        "month",
+        "Mkt-RF",
+        "SMB",
+        "HML",
+        "RF",
+        "Mom"
+      ],
+      "range": [
+        "2018-01",
+        "2023-12"
+      ],
+      "rows": 72,
+      "sha256": "01e9482b84ef4b7536401dabdc4f125ad8a370001d81c18a3364a7542b467a77",
+      "unit": "decimal_return"
+    },
+    "data/processed/validation/industry_returns.csv": {
+      "bytes": 74009,
+      "columns": [
+        "month",
+        "industry",
+        "return"
+      ],
+      "range": [
+        "2018-01",
+        "2023-12"
+      ],
+      "rows": 3528,
+      "sha256": "686fb8620ef40a4733d3f0f07baed709687b2188a80ff4fdd63c9dffc65de4b6",
+      "unit": "decimal_return"
+    },
+    "data/processed/warmup/factors.csv": {
+      "bytes": 1090,
+      "columns": [
+        "month",
+        "Mkt-RF",
+        "SMB",
+        "HML",
+        "RF",
+        "Mom"
+      ],
+      "range": [
+        "1998-01",
+        "1999-12"
+      ],
+      "rows": 24,
+      "sha256": "8b73fe4c3ef0e91b5f44603b87d0d3258dfa7bcdaadd451ab9799066327fe8c5",
+      "unit": "decimal_return"
+    },
+    "data/processed/warmup/industry_returns.csv": {
+      "bytes": 24699,
+      "columns": [
+        "month",
+        "industry",
+        "return"
+      ],
+      "range": [
+        "1998-01",
+        "1999-12"
+      ],
+      "rows": 1176,
+      "sha256": "3a143eb17ec01d2b82d0ed8e02df9320426f410d31a3b252ac2c87ae0356e166",
+      "unit": "decimal_return"
+    }
+  },
+  "schema_version": 1
+}

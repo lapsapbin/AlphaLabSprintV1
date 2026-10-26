@@ -1,2 +1,2 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Audited payload hashes bind exact bytes; do not normalize line endings.
+* -text

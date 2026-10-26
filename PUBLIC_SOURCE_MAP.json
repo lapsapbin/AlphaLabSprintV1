@@ -1,0 +1,1264 @@
+{
+  "kind": "PUBLIC_RELEASE_SOURCE_MAP_NOT_RESEARCH_FREEZE",
+  "publication_decision": "Owner-authorized complete research presentation; research acceptance is separate",
+  "origin": {
+    "candidate_zip_sha256": "a6251c6394067b9d009462cd0146f89338e56353a29ee9ce9f0a46cfb4416ee7",
+    "candidate_payload_manifest_sha256": "5cf6ee1ccd5685c7176199fc95cea1132c4b7636ea3ce1dbe8b51a588b65a126",
+    "candidate_source_map_sha256": "822f4aac1a437d4f8ceb67a252b84b4111f5ef656c9e40b1df964c8f99795a58",
+    "accepted_preparation_delivery": "a26412029988a8923a69cf9b1f9b77a41bee7bb4",
+    "historical_candidate_base_delivery": "06d3349084d94fc237f001c62c51f20cc7d44a4e"
+  },
+  "frozen_implementation": "463cb03a65e74119917c45359f29048afd11df57",
+  "self_excluded_from_own_hashes": [
+    "PUBLIC_SOURCE_MAP.json",
+    "PUBLIC_PAYLOAD_MANIFEST.json"
+  ],
+  "historical_candidate_generator": {
+    "path": "tools/publication/prepare_public.py",
+    "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+  },
+  "exclusions": [
+    "Complete raw and processed data; industry/factor input slices",
+    "Industry signals, target/drift holdings, terminal states and monthly accounting paths",
+    "Private Git history, HQ prompts/reviews, authorizations, access/command/run logs",
+    "Private archives, backups, failed renderings, review ZIPs, environments and caches",
+    "Historical private QA helpers, interview materials and private mainline"
+  ],
+  "files": {
+    ".gitattributes": {
+      "release_sha256": "fe546eb276b3afcf4a36eada483571828d8296f092fa0628ed4feb420c1b0a98",
+      "bytes": 82,
+      "release_adjustment": "initialization packaging adjusted to preserve audited byte identities",
+      "sources": [
+        {
+          "initialization_commit": "fb359eae86661b962445af0ae34a7f588f53174c",
+          "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+        }
+      ]
+    },
+    ".github/workflows/demo-ci.yml": {
+      "sources": [
+        {
+          "path": ".github/workflows/demo-ci.yml",
+          "sha256": "6ffc424737991b5c71f66714c78dd31856bd0a822c2a80c432dc9d31dc6f9513"
+        }
+      ],
+      "bytes": 700,
+      "accepted_candidate_sha256": "6ffc424737991b5c71f66714c78dd31856bd0a822c2a80c432dc9d31dc6f9513",
+      "release_sha256": "6ffc424737991b5c71f66714c78dd31856bd0a822c2a80c432dc9d31dc6f9513",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-or-dependency-reference",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    ".gitignore": {
+      "release_sha256": "0cdeb689865fd8853dd4de396619c92c0ec1d0027a529692a22d5afce7279fdc",
+      "bytes": 374,
+      "release_adjustment": "publication-stage packaging added",
+      "sources": []
+    },
+    ".python-version": {
+      "sources": [
+        {
+          "path": ".python-version",
+          "sha256": "aa0d6581054e6e4ff3f91839deca7a854ad37221b8784d060b42d0f847ff1a3b"
+        }
+      ],
+      "bytes": 8,
+      "accepted_candidate_sha256": "aa0d6581054e6e4ff3f91839deca7a854ad37221b8784d060b42d0f847ff1a3b",
+      "release_sha256": "aa0d6581054e6e4ff3f91839deca7a854ad37221b8784d060b42d0f847ff1a3b",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "PROJECT_SPEC.md": {
+      "sources": [
+        {
+          "path": "PROJECT_SPEC.md",
+          "sha256": "88473a1164ecb816fef3bfbedae31c44dcd544e2eda8f5fc98955fa943b00219"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 2745,
+      "accepted_candidate_sha256": "df445042c475edc73238ce6db9d9f421c1113f20a704f44f8e5d4a33bf0c7900",
+      "release_sha256": "df445042c475edc73238ce6db9d9f421c1113f20a704f44f8e5d4a33bf0c7900",
+      "candidate_conversion": "Reader-oriented methodology derivative and root marker; formulas/parameters retained",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-document-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "README.md": {
+      "sources": [
+        {
+          "path": "README.md",
+          "sha256": "77385757f4701a0507a2e97ee11712cd678d1aef781be82dda939052ec1d77bc"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 3489,
+      "accepted_candidate_sha256": "14daca81fbc6383dac9b723ba06c3819c03aba847131fd0ce75a567530b40667",
+      "release_sha256": "7011f9d37af5e5446be0cf08f66416b134293fa243fd2fc07d8098e45b2fce9b",
+      "candidate_conversion": "Public reader documentation; no private operation logs or personal paths",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "author-document-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "config/experiments.json": {
+      "sources": [
+        {
+          "path": "config/experiments.json",
+          "sha256": "bded6b7c2606afb195223fe338861fccf8a541db1931c1faa9f2a1b65dd376ed"
+        }
+      ],
+      "bytes": 2471,
+      "accepted_candidate_sha256": "bded6b7c2606afb195223fe338861fccf8a541db1931c1faa9f2a1b65dd376ed",
+      "release_sha256": "bded6b7c2606afb195223fe338861fccf8a541db1931c1faa9f2a1b65dd376ed",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "config/research.yaml": {
+      "sources": [
+        {
+          "path": "config/research.yaml",
+          "sha256": "9e03d5c305564d53ea337680c1f2c496ddd52ece08b8baf702266a1b6cc5926a"
+        }
+      ],
+      "bytes": 1474,
+      "accepted_candidate_sha256": "9e03d5c305564d53ea337680c1f2c496ddd52ece08b8baf702266a1b6cc5926a",
+      "release_sha256": "9e03d5c305564d53ea337680c1f2c496ddd52ece08b8baf702266a1b6cc5926a",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "data/manifest.json": {
+      "sources": [
+        {
+          "path": "data/manifest.json",
+          "sha256": "4c46e55a1ad89b930f2092e64fd731437b2c11b6dcd442f6f4d2307025369b61"
+        }
+      ],
+      "bytes": 11166,
+      "accepted_candidate_sha256": "4c46e55a1ad89b930f2092e64fd731437b2c11b6dcd442f6f4d2307025369b61",
+      "release_sha256": "4c46e55a1ad89b930f2092e64fd731437b2c11b6dcd442f6f4d2307025369b61",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "snapshot-metadata-only",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "docs/DATA_SOURCES.md": {
+      "sources": [
+        {
+          "path": "docs/DATA_SOURCES.md",
+          "sha256": "358e25171e12d2b1c688b39d76eac50de6724b31248152dba29975abfada0c1c"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 2726,
+      "accepted_candidate_sha256": "530548af680812bad4ccb0934858393f29d9a6a8cc4a7c275e2d54f1c4fb4e84",
+      "release_sha256": "560533a067b6ef84bc721ee40847a85487334505f80cc759e268cd48c2721a3e",
+      "candidate_conversion": "Public reader documentation; no private operation logs or personal paths",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "author-document-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "docs/REPRODUCIBILITY.md": {
+      "sources": [
+        {
+          "path": "docs/REPRODUCIBILITY.md",
+          "sha256": "8edd6c9b57cc84254a2c298b083e3372e543bad5157c08d6d0d4aaf1d1d2bc0c"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 2657,
+      "accepted_candidate_sha256": "f87eae4568e182ecb416f8b1056234300849a3db42111790052c28732a9ce932",
+      "release_sha256": "38edb6d0bbe5de5c3b1e62e1d70f349579bd063ec78b15f231e6486a913ae620",
+      "candidate_conversion": "Public reader documentation; no private operation logs or personal paths",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "author-document-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "docs/RIGHTS_STATUS.md": {
+      "sources": [
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 2702,
+      "accepted_candidate_sha256": "8cae938ba47a9c415927be2ccb5dbdcd85a78155804fd0b67e4cc7a0ace91219",
+      "release_sha256": "68de30a23a69d0fed8a085ae71b8e1c70f97a95be612750614db41a0a6928d0c",
+      "candidate_conversion": "Public reader documentation; no private operation logs or personal paths",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "author-document-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "notebooks/01_research_walkthrough.ipynb": {
+      "sources": [
+        {
+          "path": "notebooks/01_research_walkthrough.ipynb",
+          "sha256": "a0f87b5072c89f4581d9b6fdbc6af3e96734818945a7d30fba6fcd46a6541f63"
+        },
+        {
+          "path": "outputs/day4/run_manifest.json",
+          "sha256": "0144050b1785d83a5e5dd520487eb56149dfb5f8ea43bf70b5bb6da33a713ae2"
+        },
+        {
+          "path": "outputs/day5/run_manifest.json",
+          "sha256": "96ec7833bb50614235ff388a44ad537ce5a12aa1c7d08419d1876628c4aec3e7"
+        },
+        {
+          "path": "reports/figures/day6_release/presentation_manifest.json",
+          "sha256": "1d33527831cbc075a15d00bc43d93686f31f1d122ba252d2fba68c965c850585"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 485223,
+      "accepted_candidate_sha256": "c83e0b1863e8f018acd01c6ce60f03036fc8b5e714fd3744e3971db6fbf64199",
+      "release_sha256": "1b33b5086a0d7db43d1027f4e3906fc5aa1019d9cf9f2b2664c6ce7b0762f6f3",
+      "candidate_conversion": "Update status/links and derivative manifest pins/hash display; strip execution metadata; financial outputs/code unchanged",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "author-document-and-derived-results-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "outputs/day4/factor_regressions.csv": {
+      "sources": [
+        {
+          "path": "outputs/day4/factor_regressions.csv",
+          "sha256": "7aa56105f55d4679124e7fd105349ad9451c06e4c2f8d48b43af99d8ead132c0"
+        }
+      ],
+      "bytes": 20399,
+      "accepted_candidate_sha256": "7aa56105f55d4679124e7fd105349ad9451c06e4c2f8d48b43af99d8ead132c0",
+      "release_sha256": "7aa56105f55d4679124e7fd105349ad9451c06e4c2f8d48b43af99d8ead132c0",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "outputs/day4/ic_hac.csv": {
+      "sources": [
+        {
+          "path": "outputs/day4/ic_hac.csv",
+          "sha256": "bedfb07d6419d6a67c040e1630fa8b1ca77c46462450e924a525cce99a991e8b"
+        }
+      ],
+      "bytes": 340,
+      "accepted_candidate_sha256": "bedfb07d6419d6a67c040e1630fa8b1ca77c46462450e924a525cce99a991e8b",
+      "release_sha256": "bedfb07d6419d6a67c040e1630fa8b1ca77c46462450e924a525cce99a991e8b",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "outputs/day4/performance_summary.csv": {
+      "sources": [
+        {
+          "path": "outputs/day4/performance_summary.csv",
+          "sha256": "36c7d07262a182cf38bf07b4ee185dd4c1e6115c14af615c7258d0f8e371ad43"
+        }
+      ],
+      "bytes": 9812,
+      "accepted_candidate_sha256": "36c7d07262a182cf38bf07b4ee185dd4c1e6115c14af615c7258d0f8e371ad43",
+      "release_sha256": "36c7d07262a182cf38bf07b4ee185dd4c1e6115c14af615c7258d0f8e371ad43",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "outputs/day4/run_manifest.json": {
+      "sources": [
+        {
+          "path": "outputs/day4/run_manifest.json",
+          "sha256": "0144050b1785d83a5e5dd520487eb56149dfb5f8ea43bf70b5bb6da33a713ae2"
+        }
+      ],
+      "bytes": 833,
+      "accepted_candidate_sha256": "8e3f587d0aa1f575fd18f920264aaeea38a0064257cabd9ee047a223665da461",
+      "release_sha256": "8e3f587d0aa1f575fd18f920264aaeea38a0064257cabd9ee047a223665da461",
+      "candidate_conversion": "Select published output identities; remove environment/private workflow references; explicitly not frozen bytes",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "snapshot-metadata-only",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "outputs/day5/factor_regressions.csv": {
+      "sources": [
+        {
+          "path": "outputs/day5/factor_regressions.csv",
+          "sha256": "7484a1159bc787a531414612ab1eb85a103bcea6cfe5b2a0e82779719a7bf8a2"
+        }
+      ],
+      "bytes": 9837,
+      "accepted_candidate_sha256": "7484a1159bc787a531414612ab1eb85a103bcea6cfe5b2a0e82779719a7bf8a2",
+      "release_sha256": "7484a1159bc787a531414612ab1eb85a103bcea6cfe5b2a0e82779719a7bf8a2",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "outputs/day5/ic_hac.csv": {
+      "sources": [
+        {
+          "path": "outputs/day5/ic_hac.csv",
+          "sha256": "8f3300a213bba35121b6a6fe462f9917006335dc23905d378682384a946d250b"
+        }
+      ],
+      "bytes": 208,
+      "accepted_candidate_sha256": "8f3300a213bba35121b6a6fe462f9917006335dc23905d378682384a946d250b",
+      "release_sha256": "8f3300a213bba35121b6a6fe462f9917006335dc23905d378682384a946d250b",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "outputs/day5/performance_summary.csv": {
+      "sources": [
+        {
+          "path": "outputs/day5/performance_summary.csv",
+          "sha256": "e019bdb0d3875349d3e3c53651b262a065b9ec191c085396f67f817b4a4f0502"
+        }
+      ],
+      "bytes": 2477,
+      "accepted_candidate_sha256": "e019bdb0d3875349d3e3c53651b262a065b9ec191c085396f67f817b4a4f0502",
+      "release_sha256": "e019bdb0d3875349d3e3c53651b262a065b9ec191c085396f67f817b4a4f0502",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "outputs/day5/run_manifest.json": {
+      "sources": [
+        {
+          "path": "outputs/day5/run_manifest.json",
+          "sha256": "96ec7833bb50614235ff388a44ad537ce5a12aa1c7d08419d1876628c4aec3e7"
+        }
+      ],
+      "bytes": 831,
+      "accepted_candidate_sha256": "2fef4ac6f524291898dafa4e7febe405eaa5369bb3a7a6ac741f0a71f87b6998",
+      "release_sha256": "2fef4ac6f524291898dafa4e7febe405eaa5369bb3a7a6ac741f0a71f87b6998",
+      "candidate_conversion": "Select published output identities; remove environment/private workflow references; explicitly not frozen bytes",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "snapshot-metadata-only",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "pyproject.toml": {
+      "sources": [
+        {
+          "path": "pyproject.toml",
+          "sha256": "6e99b2e05868a01c3a9f872448b5c451bdc153a543bfb8aac006aa7e440b3e34"
+        }
+      ],
+      "bytes": 632,
+      "accepted_candidate_sha256": "6e99b2e05868a01c3a9f872448b5c451bdc153a543bfb8aac006aa7e440b3e34",
+      "release_sha256": "6e99b2e05868a01c3a9f872448b5c451bdc153a543bfb8aac006aa7e440b3e34",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/01_wealth_drawdown.png": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/01_wealth_drawdown.png",
+          "sha256": "5b964f6f39a9aff88b31c31d91ce4a79cb1de3342fc8e469461f72bfdc58cbd8"
+        }
+      ],
+      "bytes": 343533,
+      "accepted_candidate_sha256": "5b964f6f39a9aff88b31c31d91ce4a79cb1de3342fc8e469461f72bfdc58cbd8",
+      "release_sha256": "5b964f6f39a9aff88b31c31d91ce4a79cb1de3342fc8e469461f72bfdc58cbd8",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/02_cost_trading.png": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/02_cost_trading.png",
+          "sha256": "efeb3ba66daff4552595baee3e8c5996f819f2689d9a821525d63df02667e82a"
+        }
+      ],
+      "bytes": 176766,
+      "accepted_candidate_sha256": "efeb3ba66daff4552595baee3e8c5996f819f2689d9a821525d63df02667e82a",
+      "release_sha256": "efeb3ba66daff4552595baee3e8c5996f819f2689d9a821525d63df02667e82a",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/03_diagnostics.png": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/03_diagnostics.png",
+          "sha256": "910f2b6a58321f24d1f5c73554699a16e3bab01b81a7556fb4a9f31569a60673"
+        }
+      ],
+      "bytes": 241182,
+      "accepted_candidate_sha256": "910f2b6a58321f24d1f5c73554699a16e3bab01b81a7556fb4a9f31569a60673",
+      "release_sha256": "910f2b6a58321f24d1f5c73554699a16e3bab01b81a7556fb4a9f31569a60673",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/04_exposure.png": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/04_exposure.png",
+          "sha256": "d0dc8f86c04dcde93732105b316074f108edf8e390865ab39a82e481315bac68"
+        }
+      ],
+      "bytes": 182804,
+      "accepted_candidate_sha256": "d0dc8f86c04dcde93732105b316074f108edf8e390865ab39a82e481315bac68",
+      "release_sha256": "d0dc8f86c04dcde93732105b316074f108edf8e390865ab39a82e481315bac68",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/05_factor_intercepts.png": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/05_factor_intercepts.png",
+          "sha256": "64c3e47bf407685f7a9cbdae95e0a19018d68b5b7a6a7abcdad6410cb281f8df"
+        }
+      ],
+      "bytes": 84994,
+      "accepted_candidate_sha256": "64c3e47bf407685f7a9cbdae95e0a19018d68b5b7a6a7abcdad6410cb281f8df",
+      "release_sha256": "64c3e47bf407685f7a9cbdae95e0a19018d68b5b7a6a7abcdad6410cb281f8df",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/active_all_fixed.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/active_all_fixed.csv",
+          "sha256": "de23ee9d4dcacc11f38f93dd8ea4de4e08383e8051c4f160b7403583af26eb3e"
+        }
+      ],
+      "bytes": 5737,
+      "accepted_candidate_sha256": "de23ee9d4dcacc11f38f93dd8ea4de4e08383e8051c4f160b7403583af26eb3e",
+      "release_sha256": "de23ee9d4dcacc11f38f93dd8ea4de4e08383e8051c4f160b7403583af26eb3e",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/diagnostics_all_segments.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/diagnostics_all_segments.csv",
+          "sha256": "627ff121c6f01078d0173559b000bdbb833221cd0d55326e6102a987c730f5bd"
+        }
+      ],
+      "bytes": 1147,
+      "accepted_candidate_sha256": "627ff121c6f01078d0173559b000bdbb833221cd0d55326e6102a987c730f5bd",
+      "release_sha256": "627ff121c6f01078d0173559b000bdbb833221cd0d55326e6102a987c730f5bd",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/factor_coefficients_all_fixed.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/factor_coefficients_all_fixed.csv",
+          "sha256": "82be63a943724bbefe7bfcba0de9da7cb307731f9efa567cf0831c16741bf8b0"
+        }
+      ],
+      "bytes": 30238,
+      "accepted_candidate_sha256": "82be63a943724bbefe7bfcba0de9da7cb307731f9efa567cf0831c16741bf8b0",
+      "release_sha256": "82be63a943724bbefe7bfcba0de9da7cb307731f9efa567cf0831c16741bf8b0",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/figure_continuous_nav_drawdown.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/figure_continuous_nav_drawdown.csv",
+          "sha256": "5a6a869d9d08e440e2affa979b976e01d0ef92dddb50a00cc2b61bebb072b65a"
+        }
+      ],
+      "bytes": 63457,
+      "accepted_candidate_sha256": "5a6a869d9d08e440e2affa979b976e01d0ef92dddb50a00cc2b61bebb072b65a",
+      "release_sha256": "5a6a869d9d08e440e2affa979b976e01d0ef92dddb50a00cc2b61bebb072b65a",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/ic_hac_all.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/ic_hac_all.csv",
+          "sha256": "366514000e7f425bc1a3f03aa9bb38799557f051e82c7b94143c57f628338306"
+        }
+      ],
+      "bytes": 463,
+      "accepted_candidate_sha256": "366514000e7f425bc1a3f03aa9bb38799557f051e82c7b94143c57f628338306",
+      "release_sha256": "366514000e7f425bc1a3f03aa9bb38799557f051e82c7b94143c57f628338306",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/market_reference_segmented.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/market_reference_segmented.csv",
+          "sha256": "2a2a286c340af5a97c73317eb2db37f7ac86950b91ef06033497cdaee0909e17"
+        }
+      ],
+      "bytes": 869,
+      "accepted_candidate_sha256": "2a2a286c340af5a97c73317eb2db37f7ac86950b91ef06033497cdaee0909e17",
+      "release_sha256": "2a2a286c340af5a97c73317eb2db37f7ac86950b91ef06033497cdaee0909e17",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/performance_all_fixed.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/performance_all_fixed.csv",
+          "sha256": "0121fc86bfbfa75af18972dc79ddf6ecb86b8ead8eddb8cbc9d809d02b517c7a"
+        }
+      ],
+      "bytes": 12143,
+      "accepted_candidate_sha256": "0121fc86bfbfa75af18972dc79ddf6ecb86b8ead8eddb8cbc9d809d02b517c7a",
+      "release_sha256": "0121fc86bfbfa75af18972dc79ddf6ecb86b8ead8eddb8cbc9d809d02b517c7a",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/presentation_manifest.json": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/presentation_manifest.json",
+          "sha256": "1d33527831cbc075a15d00bc43d93686f31f1d122ba252d2fba68c965c850585"
+        }
+      ],
+      "bytes": 3161,
+      "accepted_candidate_sha256": "af87d049d9046aa9a14838bd0f31f9b1de78bbd1c33e3ead782d5e5f0105a5b4",
+      "release_sha256": "af87d049d9046aa9a14838bd0f31f9b1de78bbd1c33e3ead782d5e5f0105a5b4",
+      "candidate_conversion": "Select published output identities; remove environment/private workflow references; explicitly not frozen bytes",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "snapshot-metadata-only",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/report_tables.json": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/report_tables.json",
+          "sha256": "5016e7b50c9dc7d9839110a5c42cfcf4c53ddc9f453c2136fca4f4bd7741bfdf"
+        }
+      ],
+      "bytes": 5246,
+      "accepted_candidate_sha256": "5016e7b50c9dc7d9839110a5c42cfcf4c53ddc9f453c2136fca4f4bd7741bfdf",
+      "release_sha256": "5016e7b50c9dc7d9839110a5c42cfcf4c53ddc9f453c2136fca4f4bd7741bfdf",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/retrospective_2000_2025.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/retrospective_2000_2025.csv",
+          "sha256": "74d316c68c96287e140c8055dc414b1fdf4ea62342e708fb04f60031a9012811"
+        }
+      ],
+      "bytes": 3098,
+      "accepted_candidate_sha256": "74d316c68c96287e140c8055dc414b1fdf4ea62342e708fb04f60031a9012811",
+      "release_sha256": "74d316c68c96287e140c8055dc414b1fdf4ea62342e708fb04f60031a9012811",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/retrospective_active_2000_2025.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/retrospective_active_2000_2025.csv",
+          "sha256": "be288abd128e7b570f52360d084df30ceced45572a9064aa45d9a49965e4cc24"
+        }
+      ],
+      "bytes": 965,
+      "accepted_candidate_sha256": "be288abd128e7b570f52360d084df30ceced45572a9064aa45d9a49965e4cc24",
+      "release_sha256": "be288abd128e7b570f52360d084df30ceced45572a9064aa45d9a49965e4cc24",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/retrospective_market_2000_2025.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/retrospective_market_2000_2025.csv",
+          "sha256": "8192df9264180598371f13069a194727bd42869f695e7a929a18bc0c85dca513"
+        }
+      ],
+      "bytes": 250,
+      "accepted_candidate_sha256": "8192df9264180598371f13069a194727bd42869f695e7a929a18bc0c85dca513",
+      "release_sha256": "8192df9264180598371f13069a194727bd42869f695e7a929a18bc0c85dca513",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/sensitivities_research_validation_only.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/sensitivities_research_validation_only.csv",
+          "sha256": "22cfb8f22337286ec2a94f84a0d2f91217027252cba4f4e73235467a0591dbd9"
+        }
+      ],
+      "bytes": 1607,
+      "accepted_candidate_sha256": "22cfb8f22337286ec2a94f84a0d2f91217027252cba4f4e73235467a0591dbd9",
+      "release_sha256": "22cfb8f22337286ec2a94f84a0d2f91217027252cba4f4e73235467a0591dbd9",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/sensitivity_active_research_validation_only.csv": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/sensitivity_active_research_validation_only.csv",
+          "sha256": "60986a80db48fe648f4724f79efb3d4623e9d25b7dabca1fd9c3690ae2f228c2"
+        }
+      ],
+      "bytes": 1320,
+      "accepted_candidate_sha256": "60986a80db48fe648f4724f79efb3d4623e9d25b7dabca1fd9c3690ae2f228c2",
+      "release_sha256": "60986a80db48fe648f4724f79efb3d4623e9d25b7dabca1fd9c3690ae2f228c2",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/figures/day6_release/tables.md": {
+      "sources": [
+        {
+          "path": "reports/figures/day6_release/tables.md",
+          "sha256": "54fdb632708bd4f58d2165c2c8019002a27a532638db87d1b3a02a733abd5095"
+        }
+      ],
+      "bytes": 5165,
+      "accepted_candidate_sha256": "54fdb632708bd4f58d2165c2c8019002a27a532638db87d1b3a02a733abd5095",
+      "release_sha256": "54fdb632708bd4f58d2165c2c8019002a27a532638db87d1b3a02a733abd5095",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "derived-result-rights-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "reports/final_report.md": {
+      "sources": [
+        {
+          "path": "reports/final_report.md",
+          "sha256": "ccb4b38fe5e3e61df88fed0c88e8278e8b96fbeb2c3aa73afaa782e77a13d72e"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 22669,
+      "accepted_candidate_sha256": "0b491e8c6b1545c1c3a055a193310e5c797b2b43ea22190b1b0f6f2c22a9161a",
+      "release_sha256": "b5b5aa3872020025371a2b3777edc5e16e196a829a4ec9b845fae04db8816af3",
+      "candidate_conversion": "Preserve sections 1\u20137 numeric content; update publication status, private links and bounded evidence section",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "author-document-and-derived-results-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/__init__.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/__init__.py",
+          "sha256": "9a1e6ccc07c97d1605ffd115a4eb730dd7fceee3016fcff7cab8d974889ef193"
+        }
+      ],
+      "bytes": 106,
+      "accepted_candidate_sha256": "9a1e6ccc07c97d1605ffd115a4eb730dd7fceee3016fcff7cab8d974889ef193",
+      "release_sha256": "9a1e6ccc07c97d1605ffd115a4eb730dd7fceee3016fcff7cab8d974889ef193",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/access.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/access.py",
+          "sha256": "f3e834d01b852ade00dcaec6240c978cc1d86a27315c4c7e9a6aa50706ebb653"
+        }
+      ],
+      "bytes": 3725,
+      "accepted_candidate_sha256": "f3e834d01b852ade00dcaec6240c978cc1d86a27315c4c7e9a6aa50706ebb653",
+      "release_sha256": "f3e834d01b852ade00dcaec6240c978cc1d86a27315c4c7e9a6aa50706ebb653",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/backtest.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/backtest.py",
+          "sha256": "ab2f2f6595d41f17b73dc1d00e167167553dde48d8c733432a344a7591bc4f14"
+        }
+      ],
+      "bytes": 5949,
+      "accepted_candidate_sha256": "ab2f2f6595d41f17b73dc1d00e167167553dde48d8c733432a344a7591bc4f14",
+      "release_sha256": "ab2f2f6595d41f17b73dc1d00e167167553dde48d8c733432a344a7591bc4f14",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/cli.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/cli.py",
+          "sha256": "3f3faa13526b18cbfe8a820366be4e6974a0baef4e0b224dac457e2d84d9df1f"
+        }
+      ],
+      "bytes": 4171,
+      "accepted_candidate_sha256": "3f3faa13526b18cbfe8a820366be4e6974a0baef4e0b224dac457e2d84d9df1f",
+      "release_sha256": "3f3faa13526b18cbfe8a820366be4e6974a0baef4e0b224dac457e2d84d9df1f",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/data.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/data.py",
+          "sha256": "a45362ef22b4a1ffd63ff077d517d5993154eb07082b4a9ea2c42833ba8d9c4e"
+        }
+      ],
+      "bytes": 15733,
+      "accepted_candidate_sha256": "a45362ef22b4a1ffd63ff077d517d5993154eb07082b4a9ea2c42833ba8d9c4e",
+      "release_sha256": "a45362ef22b4a1ffd63ff077d517d5993154eb07082b4a9ea2c42833ba8d9c4e",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/diagnostics.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/diagnostics.py",
+          "sha256": "eb225fcaaf591ae8012d791d80868de91503891043560931909af906b064a5c8"
+        }
+      ],
+      "bytes": 4243,
+      "accepted_candidate_sha256": "eb225fcaaf591ae8012d791d80868de91503891043560931909af906b064a5c8",
+      "release_sha256": "eb225fcaaf591ae8012d791d80868de91503891043560931909af906b064a5c8",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/evaluation.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/evaluation.py",
+          "sha256": "f52a5a1e6efea94a12c323dc47cc052a096531c017b3077e07452e22d3edcd27"
+        }
+      ],
+      "bytes": 8593,
+      "accepted_candidate_sha256": "f52a5a1e6efea94a12c323dc47cc052a096531c017b3077e07452e22d3edcd27",
+      "release_sha256": "f52a5a1e6efea94a12c323dc47cc052a096531c017b3077e07452e22d3edcd27",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/freeze.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/freeze.py",
+          "sha256": "e9917aaa90cc1cf05b13c6e242eb62aa2686d10b5c5320cd2116bf7ce570988b"
+        }
+      ],
+      "bytes": 5220,
+      "accepted_candidate_sha256": "e9917aaa90cc1cf05b13c6e242eb62aa2686d10b5c5320cd2116bf7ce570988b",
+      "release_sha256": "e9917aaa90cc1cf05b13c6e242eb62aa2686d10b5c5320cd2116bf7ce570988b",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/inference.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/inference.py",
+          "sha256": "fa745ab4489df0151d40bea353a471b780e317b81308f2a5413ae5dd1d8163e2"
+        }
+      ],
+      "bytes": 3150,
+      "accepted_candidate_sha256": "fa745ab4489df0151d40bea353a471b780e317b81308f2a5413ae5dd1d8163e2",
+      "release_sha256": "fa745ab4489df0151d40bea353a471b780e317b81308f2a5413ae5dd1d8163e2",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/metrics.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/metrics.py",
+          "sha256": "8df4d5050a58544ab18ac884f08d4c6c53b7acc5e5e1c8d96ba13895d20857c9"
+        }
+      ],
+      "bytes": 3400,
+      "accepted_candidate_sha256": "8df4d5050a58544ab18ac884f08d4c6c53b7acc5e5e1c8d96ba13895d20857c9",
+      "release_sha256": "8df4d5050a58544ab18ac884f08d4c6c53b7acc5e5e1c8d96ba13895d20857c9",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/portfolio.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/portfolio.py",
+          "sha256": "06d8e0fcc3a1ae50d06385046381cdfb9a300d3c874225ae06d9734181539a71"
+        }
+      ],
+      "bytes": 4633,
+      "accepted_candidate_sha256": "06d8e0fcc3a1ae50d06385046381cdfb9a300d3c874225ae06d9734181539a71",
+      "release_sha256": "06d8e0fcc3a1ae50d06385046381cdfb9a300d3c874225ae06d9734181539a71",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/research.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/research.py",
+          "sha256": "bb670dc5442fa5c21ec401d51a127a1349d899a3af4ba70ef8e8b5844d503f3d"
+        }
+      ],
+      "bytes": 15400,
+      "accepted_candidate_sha256": "bb670dc5442fa5c21ec401d51a127a1349d899a3af4ba70ef8e8b5844d503f3d",
+      "release_sha256": "bb670dc5442fa5c21ec401d51a127a1349d899a3af4ba70ef8e8b5844d503f3d",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/signals.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/signals.py",
+          "sha256": "bd7f5196c20c97af904ea7c2e9047efa304418f08680bacf7b56ac56243a8cb9"
+        }
+      ],
+      "bytes": 4968,
+      "accepted_candidate_sha256": "bd7f5196c20c97af904ea7c2e9047efa304418f08680bacf7b56ac56243a8cb9",
+      "release_sha256": "bd7f5196c20c97af904ea7c2e9047efa304418f08680bacf7b56ac56243a8cb9",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/validation.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/validation.py",
+          "sha256": "1da51081c3cffd0c0a3e4248a6c0b1fbc81b8ab8e26b5557cbff15d2dac96e09"
+        }
+      ],
+      "bytes": 3175,
+      "accepted_candidate_sha256": "1da51081c3cffd0c0a3e4248a6c0b1fbc81b8ab8e26b5557cbff15d2dac96e09",
+      "release_sha256": "1da51081c3cffd0c0a3e4248a6c0b1fbc81b8ab8e26b5557cbff15d2dac96e09",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "src/alphalab/validation_run.py": {
+      "sources": [
+        {
+          "path": "src/alphalab/validation_run.py",
+          "sha256": "567aa3376bab4e674a5f96f8f40f639a7f19d8ff4e61950021d1b180e8dc4965"
+        }
+      ],
+      "bytes": 12306,
+      "accepted_candidate_sha256": "567aa3376bab4e674a5f96f8f40f639a7f19d8ff4e61950021d1b180e8dc4965",
+      "release_sha256": "567aa3376bab4e674a5f96f8f40f639a7f19d8ff4e61950021d1b180e8dc4965",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/conftest.py": {
+      "sources": [
+        {
+          "path": "tests/conftest.py",
+          "sha256": "8023e3df0e8f71c014d7c8c7138b63eb1ef87250c97357f33c48c361eca876d7"
+        }
+      ],
+      "bytes": 681,
+      "accepted_candidate_sha256": "8023e3df0e8f71c014d7c8c7138b63eb1ef87250c97357f33c48c361eca876d7",
+      "release_sha256": "8023e3df0e8f71c014d7c8c7138b63eb1ef87250c97357f33c48c361eca876d7",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/fixtures/synthetic_multi_table.csv": {
+      "sources": [
+        {
+          "path": "tests/fixtures/synthetic_multi_table.csv",
+          "sha256": "0baf642eab8946c3c2883f58457dde8799fc0951aa60ae7eeb1c7dee18e264ea"
+        }
+      ],
+      "bytes": 523,
+      "accepted_candidate_sha256": "0baf642eab8946c3c2883f58457dde8799fc0951aa60ae7eeb1c7dee18e264ea",
+      "release_sha256": "0baf642eab8946c3c2883f58457dde8799fc0951aa60ae7eeb1c7dee18e264ea",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_access.py": {
+      "sources": [
+        {
+          "path": "tests/test_access.py",
+          "sha256": "c62ff360fa646603f43332f47296b112346f764aa106f53c52219e79a35354ed"
+        }
+      ],
+      "bytes": 3397,
+      "accepted_candidate_sha256": "c62ff360fa646603f43332f47296b112346f764aa106f53c52219e79a35354ed",
+      "release_sha256": "c62ff360fa646603f43332f47296b112346f764aa106f53c52219e79a35354ed",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_backtest.py": {
+      "sources": [
+        {
+          "path": "tests/test_backtest.py",
+          "sha256": "b2c533cbc97af6964a7c881fe80823f1f52d5f7ddd9f975d6afef1aa3a887f7e"
+        }
+      ],
+      "bytes": 7779,
+      "accepted_candidate_sha256": "b2c533cbc97af6964a7c881fe80823f1f52d5f7ddd9f975d6afef1aa3a887f7e",
+      "release_sha256": "b2c533cbc97af6964a7c881fe80823f1f52d5f7ddd9f975d6afef1aa3a887f7e",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_day2_entrypoint.py": {
+      "sources": [
+        {
+          "path": "tests/test_day2_entrypoint.py",
+          "sha256": "713055ff99b97cc434aa015cf98a30325b4dd91e7e95e3e592f2ffb1be546905"
+        }
+      ],
+      "bytes": 3190,
+      "accepted_candidate_sha256": "713055ff99b97cc434aa015cf98a30325b4dd91e7e95e3e592f2ffb1be546905",
+      "release_sha256": "713055ff99b97cc434aa015cf98a30325b4dd91e7e95e3e592f2ffb1be546905",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_day3_entrypoint.py": {
+      "sources": [
+        {
+          "path": "tests/test_day3_entrypoint.py",
+          "sha256": "dca979900f6dfd27cd768cd8b92a15a7b7daa5a482c614a1a90faf54b440c212"
+        }
+      ],
+      "bytes": 3342,
+      "accepted_candidate_sha256": "dca979900f6dfd27cd768cd8b92a15a7b7daa5a482c614a1a90faf54b440c212",
+      "release_sha256": "dca979900f6dfd27cd768cd8b92a15a7b7daa5a482c614a1a90faf54b440c212",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_day4.py": {
+      "sources": [
+        {
+          "path": "tests/test_day4.py",
+          "sha256": "aa38886edf800f87f9eea1878b6d6530c593b08c9eacaa6e234c25e7810b28c4"
+        }
+      ],
+      "bytes": 12667,
+      "accepted_candidate_sha256": "aa38886edf800f87f9eea1878b6d6530c593b08c9eacaa6e234c25e7810b28c4",
+      "release_sha256": "aa38886edf800f87f9eea1878b6d6530c593b08c9eacaa6e234c25e7810b28c4",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_diagnostics.py": {
+      "sources": [
+        {
+          "path": "tests/test_diagnostics.py",
+          "sha256": "e5b2b9a17769359aa93be056d90305e7eb2c6c51f8f46618b0693d90e7b21efb"
+        }
+      ],
+      "bytes": 3308,
+      "accepted_candidate_sha256": "e5b2b9a17769359aa93be056d90305e7eb2c6c51f8f46618b0693d90e7b21efb",
+      "release_sha256": "e5b2b9a17769359aa93be056d90305e7eb2c6c51f8f46618b0693d90e7b21efb",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_metrics.py": {
+      "sources": [
+        {
+          "path": "tests/test_metrics.py",
+          "sha256": "0c342b8e37277dee637a03e6d294e85d867ae554b8d5c86de5ac7f07f8b2c216"
+        }
+      ],
+      "bytes": 1966,
+      "accepted_candidate_sha256": "0c342b8e37277dee637a03e6d294e85d867ae554b8d5c86de5ac7f07f8b2c216",
+      "release_sha256": "0c342b8e37277dee637a03e6d294e85d867ae554b8d5c86de5ac7f07f8b2c216",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_parser.py": {
+      "sources": [
+        {
+          "path": "tests/test_parser.py",
+          "sha256": "1c1bef5ce21fb9edcbda78d129051536be1ac5b5daab66b3acd8ed7a87666e8f"
+        }
+      ],
+      "bytes": 2602,
+      "accepted_candidate_sha256": "1c1bef5ce21fb9edcbda78d129051536be1ac5b5daab66b3acd8ed7a87666e8f",
+      "release_sha256": "1c1bef5ce21fb9edcbda78d129051536be1ac5b5daab66b3acd8ed7a87666e8f",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_partition_order.py": {
+      "sources": [
+        {
+          "path": "tests/test_partition_order.py",
+          "sha256": "7d081dbc0d605d857786c9a996618f2a10304cc01aae116bd1623b1809c9291f"
+        }
+      ],
+      "bytes": 3479,
+      "accepted_candidate_sha256": "7d081dbc0d605d857786c9a996618f2a10304cc01aae116bd1623b1809c9291f",
+      "release_sha256": "7d081dbc0d605d857786c9a996618f2a10304cc01aae116bd1623b1809c9291f",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_portfolio.py": {
+      "sources": [
+        {
+          "path": "tests/test_portfolio.py",
+          "sha256": "d6b80c7da12072cfdb6c9e7c68d6ff0a6a7e2e6827d7c5c978028835b4f3c78a"
+        }
+      ],
+      "bytes": 5237,
+      "accepted_candidate_sha256": "d6b80c7da12072cfdb6c9e7c68d6ff0a6a7e2e6827d7c5c978028835b4f3c78a",
+      "release_sha256": "d6b80c7da12072cfdb6c9e7c68d6ff0a6a7e2e6827d7c5c978028835b4f3c78a",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_real_snapshot.py": {
+      "sources": [
+        {
+          "path": "tests/test_real_snapshot.py",
+          "sha256": "00a48dd715f3c2ca2d93737bf20208c96e2f0c5ef51bae5d37c6e60983e49e14"
+        }
+      ],
+      "bytes": 3831,
+      "accepted_candidate_sha256": "00a48dd715f3c2ca2d93737bf20208c96e2f0c5ef51bae5d37c6e60983e49e14",
+      "release_sha256": "00a48dd715f3c2ca2d93737bf20208c96e2f0c5ef51bae5d37c6e60983e49e14",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_signals.py": {
+      "sources": [
+        {
+          "path": "tests/test_signals.py",
+          "sha256": "e6a936375e8e2202d7a7accff6806a1ee7a346f583f64b950cee383f16a5d02a"
+        }
+      ],
+      "bytes": 4211,
+      "accepted_candidate_sha256": "e6a936375e8e2202d7a7accff6806a1ee7a346f583f64b950cee383f16a5d02a",
+      "release_sha256": "e6a936375e8e2202d7a7accff6806a1ee7a346f583f64b950cee383f16a5d02a",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tests/test_validation.py": {
+      "sources": [
+        {
+          "path": "tests/test_validation.py",
+          "sha256": "c5f1aec382fd310f4625b1edb3f1c0e26564f6a5fb41c9591d77f4ddcc072a41"
+        }
+      ],
+      "bytes": 2275,
+      "accepted_candidate_sha256": "c5f1aec382fd310f4625b1edb3f1c0e26564f6a5fb41c9591d77f4ddcc072a41",
+      "release_sha256": "c5f1aec382fd310f4625b1edb3f1c0e26564f6a5fb41c9591d77f4ddcc072a41",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tools/walkthrough/README.md": {
+      "sources": [
+        {
+          "path": "tools/walkthrough/README.md",
+          "sha256": "5c0ad0aa7b507bcc2d92fed9999ce09071be429864488ded68d9f487d67c2885"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 3636,
+      "accepted_candidate_sha256": "8461de1d1082f17ea2d47d61928b05e44bd0244d5771c51b8af2acee87221485",
+      "release_sha256": "e2b3ca0881334bc9c0bad4ef0ea7249f81d2c26a179a440293d393b2d2f3da8b",
+      "candidate_conversion": "Public reader documentation; no private operation logs or personal paths",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "author-document-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tools/walkthrough/demo_inputs.json": {
+      "sources": [
+        {
+          "path": "tools/walkthrough/demo_inputs.json",
+          "sha256": "ff16cc967432fc65ac8147eadbd1b99f920d3aa32b8008f75a6b5e2401959f5b"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 1433,
+      "accepted_candidate_sha256": "318290bb95cdad614b97ba5d003d69723b92b2f993bb79691bff69f252976d09",
+      "release_sha256": "d4bd43f9ddafc12ad964f7591aa58f80d66b9a99d8250f81c7a35edf2a9f62ba",
+      "candidate_conversion": "Pin exact public candidate inputs; retain all eleven gates",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "snapshot-metadata-only",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tools/walkthrough/pyproject.toml": {
+      "sources": [
+        {
+          "path": "tools/walkthrough/pyproject.toml",
+          "sha256": "bcd5581c26b14a7102667057e516efa9492dec624a7c0864b0c498bfa24dd303"
+        }
+      ],
+      "bytes": 233,
+      "accepted_candidate_sha256": "bcd5581c26b14a7102667057e516efa9492dec624a7c0864b0c498bfa24dd303",
+      "release_sha256": "bcd5581c26b14a7102667057e516efa9492dec624a7c0864b0c498bfa24dd303",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-or-dependency-reference",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tools/walkthrough/run_demo.py": {
+      "sources": [
+        {
+          "path": "tools/walkthrough/run_demo.py",
+          "sha256": "5a957692152a87ff9da01fd1779f7f0cad364f2a1f239bc0e7694e5407bd37fa"
+        },
+        {
+          "path": "tools/publication/prepare_public.py",
+          "sha256": "f8952bd23bffef0871a441bf6d5164e3a7f685e5463b2b447ce72583772ad38f"
+        }
+      ],
+      "bytes": 9715,
+      "accepted_candidate_sha256": "b5e337f2b8a7718c117d4242041e250734f7c430cc36d885cd787aa758702fc9",
+      "release_sha256": "0e048cdffb87402950108da370a41c2ca893b6d4a077a4fa2e23cd07cf35d3b3",
+      "candidate_conversion": "Only demo manifest SHA pin changes; all guards/cleanup retained",
+      "release_adjustment": "publication wording or display input hash-chain metadata only",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tools/walkthrough/tests/test_demo.py": {
+      "sources": [
+        {
+          "path": "tools/walkthrough/tests/test_demo.py",
+          "sha256": "afb4aa0313c65bf307f6510e77e08e464200a470bcdd57d3294a7d74ca44a3bb"
+        }
+      ],
+      "bytes": 5956,
+      "accepted_candidate_sha256": "afb4aa0313c65bf307f6510e77e08e464200a470bcdd57d3294a7d74ca44a3bb",
+      "release_sha256": "afb4aa0313c65bf307f6510e77e08e464200a470bcdd57d3294a7d74ca44a3bb",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-or-dependency-reference",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "tools/walkthrough/uv.lock": {
+      "sources": [
+        {
+          "path": "tools/walkthrough/uv.lock",
+          "sha256": "e1ee033388669f10036f13de79b90bb475cb49ecd8d5163ff0da0d02e3479fbf"
+        }
+      ],
+      "bytes": 58580,
+      "accepted_candidate_sha256": "e1ee033388669f10036f13de79b90bb475cb49ecd8d5163ff0da0d02e3479fbf",
+      "release_sha256": "e1ee033388669f10036f13de79b90bb475cb49ecd8d5163ff0da0d02e3479fbf",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-or-dependency-reference",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    },
+    "uv.lock": {
+      "sources": [
+        {
+          "path": "uv.lock",
+          "sha256": "e7c05666674204f5e359b0becfac5a3b720e147fa4828f148138f5d8b2f111e6"
+        }
+      ],
+      "bytes": 32426,
+      "accepted_candidate_sha256": "e7c05666674204f5e359b0becfac5a3b720e147fa4828f148138f5d8b2f111e6",
+      "release_sha256": "e7c05666674204f5e359b0becfac5a3b720e147fa4828f148138f5d8b2f111e6",
+      "candidate_conversion": "byte-identical copy",
+      "release_adjustment": "unchanged from accepted candidate",
+      "historical_candidate_rights_category": "author-code-license-pending",
+      "publication_scope": "owner-authorized presentation; no additional license or general third-party data redistribution grant"
+    }
+  }
+}

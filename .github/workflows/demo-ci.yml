@@ -1,0 +1,23 @@
+name: Synthetic demo guards
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  synthetic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7, verified 2026-10-25
+        with:
+          persist-credentials: false
+          clean: false
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7, verified 2026-10-25
+        with:
+          python-version: '3.12'
+      - name: Synthetic guards and teaching code-source static check only
+        run: python -B -m unittest discover -s tools/walkthrough/tests -v

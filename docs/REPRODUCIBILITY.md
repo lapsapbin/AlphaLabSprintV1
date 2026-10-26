@@ -1,0 +1,13 @@
+# Reproduction and demonstration scope
+
+Three activities are distinct:
+
+1. **Display this research presentation:** the [walkthrough](../tools/walkthrough/README.md) reads five existing summaries, three public display derivative manifests and one accepted PNG, plus labeled synthetic arithmetic. It writes only a new external run artifact. It performs no financial inference or backtest.
+2. **Historical private research/validation reproduction:** on one Mac, an independently created dependency environment rebuilt eight processed files from the same three raw snapshots, then reproduced fixed calculations through 2023 against preseeded reference outputs. All eight partitions, data manifest and 28 Day4 stable hashes matched. The base interpreter was reused. This was not an empty-output or cross-OS/full-period reproduction.
+3. **Historical OOS evidence:** exactly two formal runs were performed under the original authorization; their 22 stable files agreed. The second was a repeat of the same observed sample. This publication work performs no further formal OOS execution.
+
+The public repository omits private Git objects, raw/processed data, authorizations, runtime logs and archival evidence. Research source/configuration/tests and locks are byte-identical reading material, not a promise that the root CLI or research suite is runnable here. The public PROJECT_SPEC and three display manifests are explicitly derived documents, not substitutes for frozen bytes. Do not bypass the original freeze chain. Static DAY4/LOCKED fields preserve implementation history and do not mean the final data are untouched.
+
+Only the display runner and tools/walkthrough/tests are supported here. Use explicit repository and external work paths. Current verification is a Mac ARM execution with Python 3.12.13 and the unchanged standalone demo lock. The [Synthetic demo guards workflow](https://github.com/lapsapbin/AlphaLabSprintV1/actions/workflows/demo-ci.yml) records actual remote status; historical local validation does not imply remote success. No new-machine, Windows/Linux Notebook or browser/Jupyter UI claim follows. Static rendered inspection covers the exported Notebook and unchanged figure.
+
+The [source map](../PUBLIC_SOURCE_MAP.json) records every exported source identity and conversion. Financial CSV/PNG bytes are unchanged; only public documentation, source identities and Notebook metadata are adapted. Public indices are self-excluded and do not assert that missing raw data or private history were distributed. Detailed commands/timestamps remain private QA evidence, intentionally excluded to avoid publishing personal filesystem paths.

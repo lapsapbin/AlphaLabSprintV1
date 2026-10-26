@@ -1,0 +1,2 @@
+segment,months,valid_months,undefined_months,start,end,status,mean,hac_se,ci_low,ci_high
+oos,24,24,0,2024-01,2025-12,PASS,0.0074530342157002561,0.029438025922375211,-0.050245496592155159,0.065151565023555666

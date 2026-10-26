@@ -1,0 +1,40 @@
+project: AlphaLab Sprint v1
+spec_version: "1.0"
+phase: DAY4
+authority: 六天量化研究项目总指挥部
+data:
+  start: "1998-01"
+  end: "2025-12"
+  output_format: csv
+  unit: decimal_return
+  industry_weighting: value_weighted_total_return
+  missing_markers: [-99.99, -999]
+  labels: [Agric, Food, Soda, Beer, Smoke, Toys, Fun, Books, Hshld, Clths, Hlth, MedEq, Drugs, Chems, Rubbr, Txtls, BldMt, Cnstr, Steel, FabPr, Mach, ElcEq, Autos, Aero, Ships, Guns, Gold, Mines, Coal, Oil, Util, Telcm, PerSv, BusSv, Hardw, Softw, Chips, LabEq, Paper, Boxes, Trans, Whlsl, Rtail, Meals, Banks, Insur, RlEst, Fin, Other]
+partitions:
+  warmup: ["1998-01", "1999-12"]
+  research: ["2000-01", "2017-12"]
+  validation: ["2018-01", "2023-12"]
+  holdout: ["2024-01", "2025-12"]
+access:
+  holdout_status: LOCKED
+  research_max_month: "2023-12"
+  holdout_start: "2024-01"
+  holdout_end: "2025-12"
+  full_file_channel: structural_qc_only
+# Frozen design: Day 2 implements only 12-2 signals, MOM5/EW49 targets and research diagnostics.
+design:
+  top_n: 5
+  momentum_lags: [12, 2]
+  industry_allocation: equal_weight
+  tie_break: normalized_label_ascending
+  costs_bps_one_way: [0, 10, 20]
+  main_cost_bps: 10
+  risk_target_annual: 0.10
+  risk_lookback_months: 12
+  risk_ddof: 1
+  leverage_cap: 1.0
+  strategies: [MOM5, MOM5_VOL10, EW49, EW49_VOL10]
+  hac_lags: 6
+  sensitivities:
+    - {top_n: 10, momentum_lags: [12, 2], cost_bps: 10}
+    - {top_n: 5, momentum_lags: [6, 2], cost_bps: 10}
